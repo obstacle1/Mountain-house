@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chez Leo</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    padding: 40px;
+    background: #f3f0ea;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+  }
+  .menu {
+    position: relative;
+    width: 600px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background: #fbf9f4;
+    padding: 50px 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+    color: #3a2e1f;
+  }
+  .corner {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #c9a14a;
+  }
+  .corner.tl { top: 20px; left: 20px; border-right: none; border-bottom: none; }
+  .corner.tr { top: 20px; right: 20px; border-left: none; border-bottom: none; }
+  .corner.bl { bottom: 20px; left: 20px; border-right: none; border-top: none; }
+  .corner.br { bottom: 20px; right: 20px; border-left: none; border-top: none; }
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+    color: #2c2117;
+    margin: 0;
+  }
+  .subtitle {
+    letter-spacing: 4px;
+    font-size: 12px;
+    color: #8a7457;
+    margin-top: 4px;
+    font-style: italic;
+  }
+  .diamond {
+    color: #c9a14a;
+    font-size: 18px;
+    margin: 28px 0;
+  }
+  .section-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    color: #6b5836;
+    margin: 0 0 30px;
+  }
+  .dish {
+    margin-bottom: 30px;
+  }
+  .dish-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #2c2117;
+    margin: 0 0 8px;
+  }
+  .dish-desc {
+    font-style: italic;
+    font-size: 14px;
+    color: #5c4f3c;
+    line-height: 1.5;
+    margin: 0 0 6px;
+  }
+  .dish-ingredients {
+    font-size: 12px;
+    color: #8a7457;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .side-note {
+    font-style: italic;
+    font-size: 13px;
+    color: #6b5836;
+    margin-top: 22px;
+  }
+  .divider {
+    color: #c9a14a;
+    letter-spacing: 6px;
+    margin: 24px 0;
+    font-size: 12px;
+  }
+  .ornament {
+    font-size: 18px;
+    color: #c9a14a;
+    margin: 36px 0 36px;
+  }
+  .footer {
+    font-style: italic;
+    font-size: 12px;
+    color: #b8a47e;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="menu">
+    <div class="corner tl"></div>
+    <div class="corner tr"></div>
+    <div class="corner bl"></div>
+    <div class="corner br"></div>
+
+    <h1>Chez Leo</h1>
+    <div class="subtitle">CE SOIR &nbsp;·&nbsp; TONIGHT'S SELECTION</div>
+
+    <div class="diamond">&#10070;</div>
+
+    <div class="section-title">Les Plats</div>
+
+    <div class="dish">
+      <div class="dish-name">Herbed Rice Pilaf</div>
+      <div class="dish-desc">Buttery basmati rice with shallot, lemon, and herbs</div>
+    </div>
+
+    <div class="divider">· · · · ·</div>
+
+    <div class="dish" style="margin-top:30px;">
+      <div class="dish-name">Poached Salmon en Papillote</div>
+      <div class="dish-desc">Salmon gently poached in white wine and dill,<br>served in its poaching satchel</div>
+    </div>
+
+    <div class="side-note">Side — Green Salad</div>
+
+    <div class="ornament">&#10047;</div>
+
+    <div class="section-title" style="margin-bottom:30px;">Le Dessert</div>
+
+    <div class="dish">
+      <div class="dish-name">Clafoutis</div>
+      <div class="dish-desc">Summer fruit baked in a light custard,<br>dusted with powdered sugar</div>
+    </div>
+
+    <div class="diamond">&#10070;</div>
+
+    <div class="footer">Bon appétit &nbsp;—&nbsp; prepared fresh each evening</div>
+  </div>
+</body>
+</html>
